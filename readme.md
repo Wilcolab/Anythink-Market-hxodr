@@ -6,8 +6,12 @@ Please find more info about each part in the relevant Readme file ([frontend](fr
 
 ## Development
 
-When implementing a new feature or fixing a bug, please create a new pull request against `main` from a feature/bug branch and add `@vanessa-cooper` as reviewer.
+When impl`ementing a new feature or fixing a bug, please create a new pull request against `main` from a feature/bug branch and add `@vanessa-cooper` as reviewer.
 
-## First setup
+## First setup - Setting up your environment 
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+- Download and install docker.
+- Verify docker installation in your terminal by running: `docker -v` then `docker-compose -v`.
+- Run `docker-compose u` in your terminal.
+- go to http://localhost:3000/api/ping to check if backend is working.
+- check the frontend and make sure it’s connected to the backend: If everything is working properly, you’ll be able to create a new user on http://localhost:3001/register 
